@@ -1,6 +1,29 @@
-View this project on [CADLAB.io](https://cadlab.io/project/30197).
+# Automotive Power Window and Door Controller — PCB Design
 
-# Projecte DJ_C_Vidres (Portes)
+**University team project · KiCad · Two-layer PCB · PIC24 · Motor control · CAN**
+
+Design of a 12 V automotive-style controller board for a power-window motor and a door actuator. The electronics include protected power conversion, H-bridge motor drivers, a PIC24 microcontroller, current-sensing connections, CAN communication and accessible test points.
+
+**Verification and scope:** The submitted PCB passed DRC with **0 errors and 0 warnings**. Schematic ERC had **0 errors and 6 warnings**. The design was prepared for fabrication; no manufactured or experimentally tested board is claimed.
+
+**My contribution:** Research into system requirements, development of functional diagrams and electronic schematic work as part of a collaborative university project. The PCB was developed by the team.
+
+![Functional block diagram](Diagrama_blocs_versio_final.jpg)
+
+### Project files
+
+- [KiCad sources, schematics and PCB layout](KiCad/)
+- [PCB layout](KiCad/PROJECTE_EINES.kicad_pcb)
+- [Bill of materials](BOM_Projecte_Eines_Dissen%20-%20versio_final.pdf)
+- [CADLAB project](https://cadlab.io/project/30197)
+
+The detailed technical description is preserved below in Catalan.
+
+---
+
+## Documentació tècnica original
+
+### Projecte DJ_C_Vidres (Portes)
 
 > **Autors: Gurpinder Singh Kaur, Adria Pelegri Sabate**  
 > **Versió: 5**
@@ -17,7 +40,7 @@ PCB per al control d’un sistema de porta i alçavidres d’un vehicle. La plac
 
 
 
-![Diagrama de blocs](docs/Diagrama_blocs_versio_final.jpg)
+![Diagrama de blocs](Diagrama_blocs_versio_final.jpg)
 
 ---
 
